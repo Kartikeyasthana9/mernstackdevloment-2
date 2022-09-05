@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            /* background: url(https://img.freepik.com/premium-vector/hand-drawn-minimal-background_23-2149020724.jpg?w=2000); */
+            background-size: cover;
+
+            background: linear-gradient(to right, #87dae3a5, #fca3a3d5), url(https://img.freepik.com/premium-vector/hand-drawn-minimal-background_23-2149020724.jpg?w=2000);
+            /* backdrop-filter: blur(5px ); */
+        }
+
+
+        .mycard {
+
+            /* short hand property */
+            border: 3px solid grey;
+            width: 40%;
+            padding: 30px;
+            margin: 300px;
+            /* syntax: x-offset y-offset blur size color  */
+            box-shadow: 6px 6px 8px -2px #654d4d;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background-color: #846851;
+            border: none;
+
+        }
+
+        .mycard h2,
+        label {
+            color: white;
+            text-shadow: 2px 2px 4px #0000004b;
+            font-size: 1.2em;
+
+        }
+
+        .myinput,
+        .mybtn {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+
+        .myinput:focus {
+            background: #2c2121;
+            color: white
+        }
+
+        .mybtn {
+            background: #1c1c1d;
+            color: #fff1f1d0;
+            font-weight: bold;
+            font-size: 1.1em;
+
+        }
+        .fontform{
+            font-family: montserrat;
+            text-align: center;
+            font-size: 1.9em !important ;
+        }
+        *{
+            font-family: montserrat;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="mycard">
+        <h2 class="fontform">Register  here to continue</h2>
+        <hr>
+        <label>Email</label>
+        <input class="myinput" type="text"><br>
+        <br>
+        <label>Courses</label>
+        <select class="myinput">
+            <option>bca</option>
+            <option>mca></option>
+
+        </select>
+        <br>
+        <br>
+        <label>Department</label>
+        <input class="myinput" list="dept">
+        <datalist id="dept">
+            <option>computer</option>
+            <option>commerce</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label>Password</label>
+        <input class="myinput" type="password" placeholder="enter password">
+        <br>
+        <br>
+        <button class="mybtn">submit</button>
+    </div>
+</body>
+
+</html>

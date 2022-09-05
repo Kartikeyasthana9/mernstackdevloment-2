@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex ; 
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+
+        .mycard {
+            
+            /* short hand property */
+            border: 3px  solid grey ;
+            width: 40% ;
+            padding: 30px;
+            /* margin: 300px ; */
+            /* syntax: x-offset y-offset blur size color  */
+            box-shadow:  6px 6px 8px -2px  rgb(101, 77, 77);
+            box-sizing: border-box; 
+            border-radius: 10px;
+        }
+        .myinput, .mybtn{
+            width: 100%;
+            padding: 10px ;
+            box-sizing: border-box;
+            border-radius: 5px ;
+        }
+        .mybtn{
+            background: rgb(224, 131, 131);
+            color: black;
+            font-weight: bold;
+            font-size: 1.1em;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mycard">
+        <h3>login here to continue</h3>
+        <hr>
+        <label>email</label>
+        <input class="myinput" type="text"><br>
+        <br>
+        <label>courses</label>
+        <select class="myinput">
+            <option>bca</option>
+            <option>mca></option>
+
+        </select>
+        <br>
+        <br>
+        <label>department</label>
+        <input class="myinput" list="dept">
+        <datalist id="dept">
+            <option>computer</option>
+            <option>commerce</option>
+        </datalist>
+        <br>
+        <br>
+
+        <label>password</label>
+        <input class="myinput" type="password" placeholder="enter password">
+        <br>
+        <br>
+        <button class="mybtn">submit</button>
+    </div>
+</body>
+
+</html>

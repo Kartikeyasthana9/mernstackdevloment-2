@@ -1,0 +1,13 @@
+.task{
+    padding: 10px 20px;
+    border: 2px solid #caffa1;
+    background-color: #434343;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+.task p{
+    margin: 0;
+    font-size: 20px;
+    color: rgb(226, 237, 174);
+    font-weight: bold;
+}

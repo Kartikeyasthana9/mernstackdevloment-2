@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .mycard {
+
+            /* short hand property */
+            border: 3px solid grey;
+            width: 40%;
+            padding: 30px;
+            /* margin: 300px ; */
+            /* syntax: x-offset y-offset blur size color  */
+            box-shadow: 6px 6px 8px -2px rgb(101, 77, 77);
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+
+        .myinput,
+        .mybtn {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="mycard">
+        <h1 style="text-align: center;"><u> B.N. College of Engineering & Technology</u></h1>
+        <br>
+        <h2 style="text-align: center;"> <u>Admission Form </u></h2>
+        <hr>
+        <hr>
+        <br>
+        <br>
+
+        <form class="">
+            <label> Name</label>
+            <input class="myinput">
+            <br><br>
+            <label for="">Email</label>
+            <input class="myinput">
+            <br><br>
+            <label for="">Phone Number</label>
+            <input class="myinput"
+            <br><br>
+            <label> Father's Name</label>
+            <input class="myinput">
+            <br><br>
+            <label> Mother's Name</label>
+            <input class="myinput">
+            <br><br>
+            <label> DOB</label>
+            <input class="myinput"type="date">
+            <br><br>
+
+            <label> Gender</label>
+            <input  type="radio" name="gender">male
+            <input  type="radio" name="gender">female
+            <br><br>
+            <label>Permanent address</label>
+            <input class="myinput type="text">
+            <br><br>
+            <label> Course Choosen</label>
+            <select>
+                <option>B.TECH </option>
+                <option>M.TECH</option>
+                <option>B.COM</option>
+                <option>BSC</option>
+                <option>BA</option>
+                <option>BBA</option>
+                <option>MBA</option>
+                <option>BCA</option>
+                <option>MCA</option>
+            </select>
+            <br><br>
+            <label for="">Course Fees</label>
+            <input type="text">
+            <br> <br>
+            <label for=""> Fees Amount in Words</label>
+            <input type="text">
+            <br><br>
+            <label for=""> Academic Details</label>
+            <br>
+            <label for=""> High School Percentage</label>
+            <input type="text">
+            <label for=""> Intermediate Percentage</label>
+            <input type="text">
+            <br> <br>
+            <label for=""> Submit E-signature</label>
+            <input type="file">
+            <br><br>
+
+
+        </form>
+        <button class="mm">Submit</button>
+
+    </div>
+</body>
+
+</html>

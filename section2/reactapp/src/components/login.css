@@ -1,0 +1,62 @@
+.login-container {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;  
+    /* background: linear-gradient(to right, #87dae3a5, #fca3a3d5), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2me0HMjPhLdBzsslz7E_FM7--YXcpu8LFQ&usqp=CAU); */
+    background: url(https://images.unsplash.com/photo-1543252358-f20f9c57bafe?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+    background-size: cover;
+    
+}
+
+
+
+
+
+.mycard{
+    border: 3px solid rgb(163, 161, 161);
+    width: 65%;
+    padding: 30px;
+    margin: 150px;
+    box-shadow: 6px 6px 8px -2px #654d4d;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color:white;
+    /* border: none; */
+}
+ .mycard h2,label{
+    color: rgb(28, 27, 27);
+    /* text-shadow: 2px 2px 4px #100f0f; */
+    font-size: 1.2em;
+
+ }
+
+ .myinput,
+ .mybtn {
+     width: 100%;
+     padding: 10px;
+     box-sizing: border-box;
+     border-radius: 15px;
+     border: none;
+     /* outline: none; */
+ }
+.myinput{
+    background: rgb(185, 183, 183);
+}
+ .myinput:focus{
+    background: #2c2121;
+    color: rgb(255, 248, 248);
+ }
+ .mybtn{
+    background:#22f949ea ;
+    color: #fff1f1d0;
+    font-weight: bold;
+    font-size: 1.9em;
+    border-radius: 20px;
+ }
+ .fontform{
+    
+    text-align: center;
+    font-size: 1.9em !important ;
+}

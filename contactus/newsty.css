@@ -1,0 +1,59 @@
+body{
+    min-height: 100vh ;
+    background: url(https://theredandblackarchitect.files.wordpress.com/2014/11/img_3233.jpg);
+
+    background-size: cover;
+    backdrop-filter: blur(4px );
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.176), rgba(255, 255, 255, 0.164)), url(https://theredandblackarchitect.files.wordpress.com/2014/11/img_3233.jpg); */
+    margin: 0;
+}
+.my{
+      margin-left:600px ;
+      font-size: 1.5em;
+    
+}
+
+
+
+.section{
+     
+    display: flex;
+    justify-content: center;
+    
+}
+.contact{
+    background-color:  #afbfff81 ;
+    box-sizing: border-box;
+    border-radius: 10px ;
+}
+.mycard{
+    background-color: #cedcf6af ;
+    box-sizing: border-box;
+    border-radius: 10px ;
+    border: none;
+}
+.contact, .mycard{
+    min-height: 500px ;
+    padding: 75px;
+    color: black;
+
+}
+
+
+.myinput, .mybtn{
+    width: 100%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border-radius: 5px ;
+    border: none;
+    outline: none;
+}
+.mybtn{
+    background: #fa9d32ec;
+    color: rgba(255, 241, 241, 0.814);
+    font-weight: bold;
+    font-size: 1.3em;
+
+}
+
+
